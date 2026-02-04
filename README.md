@@ -1,20 +1,12 @@
 # Raven's Windows
 
-A Hytale mod that adds connected glass windows that auto-connect like fences, creating seamless window walls.
+A Hytale mod that adds glass windows that automatically connect to each other - just like fences!
 
 ## Features
 
-- **Smart Auto-Connection** - Windows automatically connect to adjacent windows, just like fences
-- **12 Shape Variants** - Automatically switches between shapes based on neighbors:
-  - Single (standalone)
-  - Horizontal (east-west connection)
-  - Vertical (north-south connection)
-  - 4 Corner pieces (NE, NW, SE, SW)
-  - 4 T-shape pieces (N, S, E, W)
-  - Cross (4-way intersection)
-- **4-Way Rotation** - Place windows in any cardinal direction (N, E, S, W)
-- **Transparent Glass** - Full transparency with proper glass material properties
-- **Creative Menu Integration** - Find windows in the Blocks > Deco category
+- **Auto-Connecting** - Place windows next to each other and they seamlessly merge
+- **Rotatable** - Place in any direction
+- **Find in Creative Menu** - Blocks > Deco category
 
 ## Installation
 
