@@ -1,0 +1,22 @@
+{
+  "Group": "com.alexispace",
+  "Name": "Raven'sWindows",
+  "Version": "1.0.0",
+  "Description": "Adds connected glass windows that auto-connect like fences. Includes various window styles and glass blocks.",
+  "Authors": [
+    {
+      "Name": "alexispace"
+    }
+  ],
+  "Main": "com.alexispace.hywindows.HytaleWindowsPlugin",
+  "ServerVersion": "*",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "SubPlugins": [],
+
+  "Keywords": ["windows", "glass", "decoration", "building", "connected-blocks"],
+  "License": "All rights reserved",
+  "Repository": "https://github.com/alexiokay/HytaleMods-Raven-sWindows"
+}
