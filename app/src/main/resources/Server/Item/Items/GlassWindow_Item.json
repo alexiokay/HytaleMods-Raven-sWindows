@@ -19,7 +19,7 @@
       }
     ],
     "Material": "Solid",
-    "HitboxType": "Full",
+    "HitboxType": "GlassWindow",
     "DrawType": "Model",
     "Group": "Glass",
     "Flags": {},
@@ -42,31 +42,40 @@
           "CustomModel": "Items/GlassWindow/vertical.blockymodel"
         },
         "Corner_NE": {
-          "CustomModel": "Items/GlassWindow/corner_ne.blockymodel"
+          "CustomModel": "Items/GlassWindow/corner_ne.blockymodel",
+          "HitboxType": "GlassWindow_Corner_NE"
         },
         "Corner_NW": {
-          "CustomModel": "Items/GlassWindow/corner_nw.blockymodel"
+          "CustomModel": "Items/GlassWindow/corner_nw.blockymodel",
+          "HitboxType": "GlassWindow_Corner_NW"
         },
         "Corner_SE": {
-          "CustomModel": "Items/GlassWindow/corner_se.blockymodel"
+          "CustomModel": "Items/GlassWindow/corner_se.blockymodel",
+          "HitboxType": "GlassWindow_Corner_SE"
         },
         "Corner_SW": {
-          "CustomModel": "Items/GlassWindow/corner_sw.blockymodel"
+          "CustomModel": "Items/GlassWindow/corner_sw.blockymodel",
+          "HitboxType": "GlassWindow_Corner_SW"
         },
         "TShape_N": {
-          "CustomModel": "Items/GlassWindow/tshape_n.blockymodel"
+          "CustomModel": "Items/GlassWindow/tshape_n.blockymodel",
+          "HitboxType": "GlassWindow_TShape_N"
         },
         "TShape_S": {
-          "CustomModel": "Items/GlassWindow/tshape_s.blockymodel"
+          "CustomModel": "Items/GlassWindow/tshape_s.blockymodel",
+          "HitboxType": "GlassWindow_TShape_S"
         },
         "TShape_E": {
-          "CustomModel": "Items/GlassWindow/tshape_e.blockymodel"
+          "CustomModel": "Items/GlassWindow/tshape_e.blockymodel",
+          "HitboxType": "GlassWindow_TShape_E"
         },
         "TShape_W": {
-          "CustomModel": "Items/GlassWindow/tshape_w.blockymodel"
+          "CustomModel": "Items/GlassWindow/tshape_w.blockymodel",
+          "HitboxType": "GlassWindow_TShape_W"
         },
         "Cross": {
-          "CustomModel": "Items/GlassWindow/cross.blockymodel"
+          "CustomModel": "Items/GlassWindow/cross.blockymodel",
+          "HitboxType": "GlassWindow_Cross"
         }
       }
     },
