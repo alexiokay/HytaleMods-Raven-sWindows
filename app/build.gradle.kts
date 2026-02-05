@@ -21,11 +21,11 @@ dependencies {
 }
 
 tasks.jar {
-    archiveBaseName.set("HytaleWindows")
+    archiveBaseName.set("Raven'sWindows")
 }
 
 tasks.shadowJar {
-    archiveBaseName.set("HytaleWindows")
+    archiveBaseName.set("Raven'sWindows")
     archiveClassifier.set("")
 }
 
