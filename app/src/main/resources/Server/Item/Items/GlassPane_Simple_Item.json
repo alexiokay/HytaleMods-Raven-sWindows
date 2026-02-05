@@ -1,0 +1,243 @@
+{
+  "TranslationProperties": {
+    "Name": "hywindows.glass_pane_simple.name"
+  },
+  "ItemLevel": 15,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/hywindows_glass_pane_simple.png",
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Glass",
+  "BlockType": {
+    "CustomModel": "Items/GlassPaneOneSided/single.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/GlassPaneOneSided/glass_single.png",
+        "Weight": 1
+      }
+    ],
+    "Material": "Solid",
+    "HitboxType": "GlassWindow",
+    "DrawType": "Model",
+    "Group": "Glass",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "BlockParticleSetId": "Glass",
+    "ParticleColor": "#c8e6f0",
+    "VariantRotation": "NESW",
+    "BlockSoundSetId": "Glass",
+    "Opacity": "Transparent",
+    "State": {
+      "Definitions": {
+        "Horizontal": {
+          "CustomModel": "Items/GlassPaneOneSided/horizontal.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_horizontal.png", "Weight": 1}]
+        },
+        "Vertical": {
+          "CustomModel": "Items/GlassPaneOneSided/vertical.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_vertical.png", "Weight": 1}]
+        },
+        "Corner_NE": {
+          "CustomModel": "Items/GlassPaneOneSided/corner_ne.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_corner_ne.png", "Weight": 1}],
+          "HitboxType": "GlassWindow_Corner_NE"
+        },
+        "Corner_NW": {
+          "CustomModel": "Items/GlassPaneOneSided/corner_nw.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_corner_nw.png", "Weight": 1}],
+          "HitboxType": "GlassWindow_Corner_NW"
+        },
+        "Corner_SE": {
+          "CustomModel": "Items/GlassPaneOneSided/corner_se.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_corner_se.png", "Weight": 1}],
+          "HitboxType": "GlassWindow_Corner_SE"
+        },
+        "Corner_SW": {
+          "CustomModel": "Items/GlassPaneOneSided/corner_sw.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_corner_sw.png", "Weight": 1}],
+          "HitboxType": "GlassWindow_Corner_SW"
+        },
+        "TShape_N": {
+          "CustomModel": "Items/GlassPaneOneSided/tshape_n.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_tshape_n.png", "Weight": 1}],
+          "HitboxType": "GlassWindow_TShape_N"
+        },
+        "TShape_S": {
+          "CustomModel": "Items/GlassPaneOneSided/tshape_s.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_tshape_s.png", "Weight": 1}],
+          "HitboxType": "GlassWindow_TShape_S"
+        },
+        "TShape_E": {
+          "CustomModel": "Items/GlassPaneOneSided/tshape_e.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_tshape_e.png", "Weight": 1}],
+          "HitboxType": "GlassWindow_TShape_E"
+        },
+        "TShape_W": {
+          "CustomModel": "Items/GlassPaneOneSided/tshape_w.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_tshape_w.png", "Weight": 1}],
+          "HitboxType": "GlassWindow_TShape_W"
+        },
+        "Cross": {
+          "CustomModel": "Items/GlassPaneOneSided/cross.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_cross.png", "Weight": 1}],
+          "HitboxType": "GlassWindow_Cross"
+        },
+        "EndCap_E": {
+          "CustomModel": "Items/GlassPaneOneSided/endcap_e.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_endcap_e.png", "Weight": 1}]
+        },
+        "EndCap_W": {
+          "CustomModel": "Items/GlassPaneOneSided/endcap_w.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_endcap_w.png", "Weight": 1}]
+        },
+        "EndCap_N": {
+          "CustomModel": "Items/GlassPaneOneSided/endcap_n.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_endcap_n.png", "Weight": 1}]
+        },
+        "EndCap_S": {
+          "CustomModel": "Items/GlassPaneOneSided/endcap_s.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_endcap_s.png", "Weight": 1}]
+        },
+        "Single_Above": {
+          "CustomModel": "Items/GlassPaneOneSided/single_above.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_single_above.png", "Weight": 1}]
+        },
+        "Single_Below": {
+          "CustomModel": "Items/GlassPaneOneSided/single_below.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_single_below.png", "Weight": 1}]
+        },
+        "Single_Both": {
+          "CustomModel": "Items/GlassPaneOneSided/single_both.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_single_both.png", "Weight": 1}]
+        },
+        "Horizontal_Above": {
+          "CustomModel": "Items/GlassPaneOneSided/horizontal_above.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_horizontal_above.png", "Weight": 1}]
+        },
+        "Horizontal_Below": {
+          "CustomModel": "Items/GlassPaneOneSided/horizontal_below.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_horizontal_below.png", "Weight": 1}]
+        },
+        "Horizontal_Both": {
+          "CustomModel": "Items/GlassPaneOneSided/horizontal_both.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_horizontal_both.png", "Weight": 1}]
+        },
+        "Vertical_Above": {
+          "CustomModel": "Items/GlassPaneOneSided/vertical_above.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_vertical_above.png", "Weight": 1}]
+        },
+        "Vertical_Below": {
+          "CustomModel": "Items/GlassPaneOneSided/vertical_below.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_vertical_below.png", "Weight": 1}]
+        },
+        "Vertical_Both": {
+          "CustomModel": "Items/GlassPaneOneSided/vertical_both.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_vertical_both.png", "Weight": 1}]
+        },
+        "EndCap_E_Both": {
+          "CustomModel": "Items/GlassPaneOneSided/endcap_e_both.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_endcap_e_both.png", "Weight": 1}]
+        },
+        "EndCap_E_Above": {
+          "CustomModel": "Items/GlassPaneOneSided/endcap_e_above.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_endcap_e_above.png", "Weight": 1}]
+        },
+        "EndCap_E_Below": {
+          "CustomModel": "Items/GlassPaneOneSided/endcap_e_below.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_endcap_e_below.png", "Weight": 1}]
+        },
+        "EndCap_W_Both": {
+          "CustomModel": "Items/GlassPaneOneSided/endcap_w_both.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_endcap_w_both.png", "Weight": 1}]
+        },
+        "EndCap_W_Above": {
+          "CustomModel": "Items/GlassPaneOneSided/endcap_w_above.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_endcap_w_above.png", "Weight": 1}]
+        },
+        "EndCap_W_Below": {
+          "CustomModel": "Items/GlassPaneOneSided/endcap_w_below.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_endcap_w_below.png", "Weight": 1}]
+        },
+        "EndCap_N_Both": {
+          "CustomModel": "Items/GlassPaneOneSided/endcap_n_both.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_endcap_n_both.png", "Weight": 1}]
+        },
+        "EndCap_N_Above": {
+          "CustomModel": "Items/GlassPaneOneSided/endcap_n_above.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_endcap_n_above.png", "Weight": 1}]
+        },
+        "EndCap_N_Below": {
+          "CustomModel": "Items/GlassPaneOneSided/endcap_n_below.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_endcap_n_below.png", "Weight": 1}]
+        },
+        "EndCap_S_Both": {
+          "CustomModel": "Items/GlassPaneOneSided/endcap_s_both.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_endcap_s_both.png", "Weight": 1}]
+        },
+        "EndCap_S_Above": {
+          "CustomModel": "Items/GlassPaneOneSided/endcap_s_above.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_endcap_s_above.png", "Weight": 1}]
+        },
+        "EndCap_S_Below": {
+          "CustomModel": "Items/GlassPaneOneSided/endcap_s_below.blockymodel",
+          "CustomModelTexture": [{"Texture": "Items/GlassPaneOneSided/glass_endcap_s_below.png", "Weight": 1}]
+        }
+      }
+    },
+    "ConnectedBlockRuleSet": {
+      "Type": "CustomTemplate",
+      "TemplateShapeAssetId": "GlassPaneTemplate",
+      "TemplateShapeBlockPatterns": {
+        "Single": "GlassPane_Simple_Item",
+        "Single_Above": "*GlassPane_Simple_Item_State_Definitions_Single_Above",
+        "Single_Below": "*GlassPane_Simple_Item_State_Definitions_Single_Below",
+        "Single_Both": "*GlassPane_Simple_Item_State_Definitions_Single_Both",
+        "Horizontal": "*GlassPane_Simple_Item_State_Definitions_Horizontal",
+        "Horizontal_Above": "*GlassPane_Simple_Item_State_Definitions_Horizontal_Above",
+        "Horizontal_Below": "*GlassPane_Simple_Item_State_Definitions_Horizontal_Below",
+        "Horizontal_Both": "*GlassPane_Simple_Item_State_Definitions_Horizontal_Both",
+        "Vertical": "*GlassPane_Simple_Item_State_Definitions_Vertical",
+        "Vertical_Above": "*GlassPane_Simple_Item_State_Definitions_Vertical_Above",
+        "Vertical_Below": "*GlassPane_Simple_Item_State_Definitions_Vertical_Below",
+        "Vertical_Both": "*GlassPane_Simple_Item_State_Definitions_Vertical_Both",
+        "Corner_NE": "*GlassPane_Simple_Item_State_Definitions_Corner_NE",
+        "Corner_NW": "*GlassPane_Simple_Item_State_Definitions_Corner_NW",
+        "Corner_SE": "*GlassPane_Simple_Item_State_Definitions_Corner_SE",
+        "Corner_SW": "*GlassPane_Simple_Item_State_Definitions_Corner_SW",
+        "TShape_N": "*GlassPane_Simple_Item_State_Definitions_TShape_N",
+        "TShape_S": "*GlassPane_Simple_Item_State_Definitions_TShape_S",
+        "TShape_E": "*GlassPane_Simple_Item_State_Definitions_TShape_E",
+        "TShape_W": "*GlassPane_Simple_Item_State_Definitions_TShape_W",
+        "Cross": "*GlassPane_Simple_Item_State_Definitions_Cross",
+        "EndCap_E_Both": "*GlassPane_Simple_Item_State_Definitions_EndCap_E_Both",
+        "EndCap_E_Above": "*GlassPane_Simple_Item_State_Definitions_EndCap_E_Above",
+        "EndCap_E_Below": "*GlassPane_Simple_Item_State_Definitions_EndCap_E_Below",
+        "EndCap_E": "*GlassPane_Simple_Item_State_Definitions_EndCap_E",
+        "EndCap_W_Both": "*GlassPane_Simple_Item_State_Definitions_EndCap_W_Both",
+        "EndCap_W_Above": "*GlassPane_Simple_Item_State_Definitions_EndCap_W_Above",
+        "EndCap_W_Below": "*GlassPane_Simple_Item_State_Definitions_EndCap_W_Below",
+        "EndCap_W": "*GlassPane_Simple_Item_State_Definitions_EndCap_W",
+        "EndCap_N_Both": "*GlassPane_Simple_Item_State_Definitions_EndCap_N_Both",
+        "EndCap_N_Above": "*GlassPane_Simple_Item_State_Definitions_EndCap_N_Above",
+        "EndCap_N_Below": "*GlassPane_Simple_Item_State_Definitions_EndCap_N_Below",
+        "EndCap_N": "*GlassPane_Simple_Item_State_Definitions_EndCap_N",
+        "EndCap_S_Both": "*GlassPane_Simple_Item_State_Definitions_EndCap_S_Both",
+        "EndCap_S_Above": "*GlassPane_Simple_Item_State_Definitions_EndCap_S_Above",
+        "EndCap_S_Below": "*GlassPane_Simple_Item_State_Definitions_EndCap_S_Below",
+        "EndCap_S": "*GlassPane_Simple_Item_State_Definitions_EndCap_S"
+      }
+    }
+  },
+  "ItemSoundSetId": "ISS_Items_Potion",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [22.5, 45, 22.5],
+    "Translation": [0, -13]
+  }
+}
