@@ -7,7 +7,7 @@ plugins {
 apply<RunHytalePlugin>()
 
 group = "com.alexispace"
-version = "1.0.1"
+version = "1.0.2"
 
 java {
     toolchain {
