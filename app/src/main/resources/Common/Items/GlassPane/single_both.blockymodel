@@ -11,12 +11,12 @@
         "stretch": {"x": 1, "y": 1, "z": 1},
         "settings": {"isPiece": false, "size": {"x": 32, "y": 32, "z": 4}},
         "textureLayout": {
-          "back": {"offset": {"x": 32, "y": 0}},
-          "front": {"offset": {"x": 0, "y": 0}},
-          "right": {"offset": {"x": 32, "y": 0}},
-          "left": {"offset": {"x": 32, "y": 0}},
-          "top": {"offset": {"x": 0, "y": 0}},
-          "bottom": {"offset": {"x": 0, "y": 0}}
+          "back": {"offset": {"x": 4, "y": 4}},
+          "front": {"offset": {"x": 4, "y": 4}},
+          "right": {"offset": {"x": 36, "y": 4}},
+          "left": {"offset": {"x": 0, "y": 4}},
+          "top": {"offset": {"x": 4, "y": 0}},
+          "bottom": {"offset": {"x": 4, "y": 36}}
         },
         "unwrapMode": "custom", "visible": true, "doubleSided": true, "shadingMode": "flat"
       }
