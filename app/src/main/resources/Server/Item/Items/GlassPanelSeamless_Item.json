@@ -234,6 +234,17 @@
       }
     }
   },
+  "Recipe": {
+    "TimeSeconds": 1.0,
+    "Input": [
+      {"ItemId": "Soil_Sand", "Quantity": 1}
+    ],
+    "BenchRequirement": [{
+      "Id": "Builders",
+      "Type": "StructuralCrafting",
+      "Categories": ["Window"]
+    }]
+  },
   "ItemSoundSetId": "ISS_Items_Potion",
   "IconProperties": {
     "Scale": 0.58823,
