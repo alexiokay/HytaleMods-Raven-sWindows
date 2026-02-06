@@ -1,0 +1,3612 @@
+{
+  "ConnectsToOtherMaterials": false,
+  "DefaultShape": "Single",
+  "Shapes": {
+    "Single": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "Down": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "Up": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "Single_Above": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Down": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "Up": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "Single_Below": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "Down": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Up": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "Single_Both": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Down": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Up": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "Horizontal_Both": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Down": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Up": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "Horizontal_Above": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Down": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "Up": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "Horizontal_Below": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "Down": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Up": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "Horizontal": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "Down": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "Up": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "Vertical_Both": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Down": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Up": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "Vertical_Above": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Down": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "Up": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "Vertical_Below": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "Down": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Up": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "Vertical": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "Down": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "Up": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "Corner_NE": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "Corner_NW": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "Corner_SE": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "Corner_SW": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "TShape_N": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "TShape_S": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "TShape_E": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "TShape_W": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "Cross": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "EndCap_E_Both": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Down": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Up": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "EndCap_E_Above": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Down": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "Up": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "EndCap_E_Below": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "Down": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Up": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "EndCap_W_Both": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Down": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Up": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "EndCap_W_Above": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Down": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "Up": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "EndCap_W_Below": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "Down": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Up": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "EndCap_N_Both": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Down": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Up": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "EndCap_N_Above": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Down": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "Up": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "EndCap_N_Below": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "Down": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Up": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "EndCap_S_Both": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Down": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Up": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "EndCap_S_Above": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Down": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "Up": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "EndCap_S_Below": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "Down": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "Up": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "EndCap_E": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "Down": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "Up": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "EndCap_W": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "Down": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "Up": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "EndCap_N": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "Down": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "Up": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "EndCap_S": {
+      "FaceTags": {
+        "North": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "South": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "East": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "West": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Up": [
+          "GlassPanelSeamlessConnection"
+        ],
+        "Down": [
+          "GlassPanelSeamlessConnection"
+        ]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {
+              "Position": {
+                "X": 1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "West": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": -1,
+                "Y": 0,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "East": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": 1
+              },
+              "IncludeOrExclude": "Include",
+              "FaceTags": {
+                "North": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 0,
+                "Z": -1
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "South": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": 1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "Down": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            },
+            {
+              "Position": {
+                "X": 0,
+                "Y": -1,
+                "Z": 0
+              },
+              "IncludeOrExclude": "Exclude",
+              "FaceTags": {
+                "Up": [
+                  "GlassPanelSeamlessConnection"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -7,7 +7,7 @@ plugins {
 apply<RunHytalePlugin>()
 
 group = "com.alexispace"
-version = "1.0.0"
+version = "1.0.1"
 
 java {
     toolchain {
@@ -21,11 +21,11 @@ dependencies {
 }
 
 tasks.jar {
-    archiveBaseName.set("Raven'sWindows")
+    archiveBaseName.set("AlexisGlass")
 }
 
 tasks.shadowJar {
-    archiveBaseName.set("Raven'sWindows")
+    archiveBaseName.set("AlexisGlass")
     archiveClassifier.set("")
 }
 

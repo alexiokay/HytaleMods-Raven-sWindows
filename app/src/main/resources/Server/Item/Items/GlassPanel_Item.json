@@ -1,0 +1,107 @@
+{
+  "TranslationProperties": {
+    "Name": "Glass Panel"
+  },
+  "ItemLevel": 15,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/glass_panel.png",
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Glass",
+  "BlockType": {
+    "CustomModel": "Items/GlassPanel/single.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/GlassPanel/glass_texture.png",
+        "Weight": 1
+      }
+    ],
+    "Material": "Solid",
+    "HitboxType": "GlassPanel",
+    "DrawType": "Model",
+    "Group": "Glass",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "BlockParticleSetId": "Glass",
+    "ParticleColor": "#d4ece7",
+    "VariantRotation": "NESW",
+    "BlockSoundSetId": "Glass",
+    "Opacity": "Transparent",
+    "State": {
+      "Definitions": {
+        "Horizontal": {
+          "CustomModel": "Items/GlassPanel/horizontal.blockymodel"
+        },
+        "Vertical": {
+          "CustomModel": "Items/GlassPanel/vertical.blockymodel"
+        },
+        "Corner_NE": {
+          "CustomModel": "Items/GlassPanel/corner_ne.blockymodel",
+          "HitboxType": "GlassPanel_Corner_NE"
+        },
+        "Corner_NW": {
+          "CustomModel": "Items/GlassPanel/corner_nw.blockymodel",
+          "HitboxType": "GlassPanel_Corner_NW"
+        },
+        "Corner_SE": {
+          "CustomModel": "Items/GlassPanel/corner_se.blockymodel",
+          "HitboxType": "GlassPanel_Corner_SE"
+        },
+        "Corner_SW": {
+          "CustomModel": "Items/GlassPanel/corner_sw.blockymodel",
+          "HitboxType": "GlassPanel_Corner_SW"
+        },
+        "TShape_N": {
+          "CustomModel": "Items/GlassPanel/tshape_n.blockymodel",
+          "HitboxType": "GlassPanel_TShape_N"
+        },
+        "TShape_S": {
+          "CustomModel": "Items/GlassPanel/tshape_s.blockymodel",
+          "HitboxType": "GlassPanel_TShape_S"
+        },
+        "TShape_E": {
+          "CustomModel": "Items/GlassPanel/tshape_e.blockymodel",
+          "HitboxType": "GlassPanel_TShape_E"
+        },
+        "TShape_W": {
+          "CustomModel": "Items/GlassPanel/tshape_w.blockymodel",
+          "HitboxType": "GlassPanel_TShape_W"
+        },
+        "Cross": {
+          "CustomModel": "Items/GlassPanel/cross.blockymodel",
+          "HitboxType": "GlassPanel_Cross"
+        }
+      }
+    },
+    "ConnectedBlockRuleSet": {
+      "Type": "CustomTemplate",
+      "TemplateShapeAssetId": "GlassPanelTemplate",
+      "TemplateShapeBlockPatterns": {
+        "Single": "GlassPanel_Item",
+        "Horizontal": "*GlassPanel_Item_State_Definitions_Horizontal",
+        "Vertical": "*GlassPanel_Item_State_Definitions_Vertical",
+        "Corner_NE": "*GlassPanel_Item_State_Definitions_Corner_NE",
+        "Corner_NW": "*GlassPanel_Item_State_Definitions_Corner_NW",
+        "Corner_SE": "*GlassPanel_Item_State_Definitions_Corner_SE",
+        "Corner_SW": "*GlassPanel_Item_State_Definitions_Corner_SW",
+        "TShape_N": "*GlassPanel_Item_State_Definitions_TShape_N",
+        "TShape_S": "*GlassPanel_Item_State_Definitions_TShape_S",
+        "TShape_E": "*GlassPanel_Item_State_Definitions_TShape_E",
+        "TShape_W": "*GlassPanel_Item_State_Definitions_TShape_W",
+        "Cross": "*GlassPanel_Item_State_Definitions_Cross"
+      }
+    }
+  },
+  "ItemSoundSetId": "ISS_Items_Potion",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [22.5, 45, 22.5],
+    "Translation": [0, -13]
+  }
+}
