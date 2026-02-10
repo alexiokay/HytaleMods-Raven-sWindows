@@ -39,7 +39,8 @@
           "CustomModel": "Items/GlassPanel/horizontal.blockymodel"
         },
         "Vertical": {
-          "CustomModel": "Items/GlassPanel/vertical.blockymodel"
+          "CustomModel": "Items/GlassPanel/vertical.blockymodel",
+          "HitboxType": "GlassPanel_Vertical"
         },
         "Corner_NE": {
           "CustomModel": "Items/GlassPanel/corner_ne.blockymodel",

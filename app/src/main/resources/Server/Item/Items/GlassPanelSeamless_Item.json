@@ -41,7 +41,8 @@
         },
         "Vertical": {
           "CustomModel": "Items/GlassPanelSeamless/vertical.blockymodel",
-          "CustomModelTexture": [{"Texture": "Items/GlassPanelSeamless/glass_vertical.png", "Weight": 1}]
+          "CustomModelTexture": [{"Texture": "Items/GlassPanelSeamless/glass_vertical.png", "Weight": 1}],
+          "HitboxType": "GlassPanel_Vertical"
         },
         "Corner_NE": {
           "CustomModel": "Items/GlassPanelSeamless/corner_ne.blockymodel",
@@ -130,15 +131,18 @@
         },
         "Vertical_Above": {
           "CustomModel": "Items/GlassPanelSeamless/vertical_above.blockymodel",
-          "CustomModelTexture": [{"Texture": "Items/GlassPanelSeamless/glass_vertical_above.png", "Weight": 1}]
+          "CustomModelTexture": [{"Texture": "Items/GlassPanelSeamless/glass_vertical_above.png", "Weight": 1}],
+          "HitboxType": "GlassPanel_Vertical"
         },
         "Vertical_Below": {
           "CustomModel": "Items/GlassPanelSeamless/vertical_below.blockymodel",
-          "CustomModelTexture": [{"Texture": "Items/GlassPanelSeamless/glass_vertical_below.png", "Weight": 1}]
+          "CustomModelTexture": [{"Texture": "Items/GlassPanelSeamless/glass_vertical_below.png", "Weight": 1}],
+          "HitboxType": "GlassPanel_Vertical"
         },
         "Vertical_Both": {
           "CustomModel": "Items/GlassPanelSeamless/vertical_both.blockymodel",
-          "CustomModelTexture": [{"Texture": "Items/GlassPanelSeamless/glass_vertical_both.png", "Weight": 1}]
+          "CustomModelTexture": [{"Texture": "Items/GlassPanelSeamless/glass_vertical_both.png", "Weight": 1}],
+          "HitboxType": "GlassPanel_Vertical"
         },
         "EndCap_E_Both": {
           "CustomModel": "Items/GlassPanelSeamless/endcap_e_both.blockymodel",
