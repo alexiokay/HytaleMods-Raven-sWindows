@@ -14,7 +14,7 @@ $enableCornerDecorations = $true  # Set to $false to disable corner decorations
 
 # --- Colors ---
 $glass  = [System.Drawing.Color]::FromArgb(0, 0, 0, 0)
-$border = [System.Drawing.Color]::FromArgb(255, 240, 240, 240)
+$border = [System.Drawing.Color]::FromArgb(255, 228, 248, 255)  # Light blue border color
 $corner = $border  # Corner decoration uses same color as border
 $bw = 1           # Border width in pixels
 $cornerSize = 3   # Corner diagonal line length (3 pixels)
