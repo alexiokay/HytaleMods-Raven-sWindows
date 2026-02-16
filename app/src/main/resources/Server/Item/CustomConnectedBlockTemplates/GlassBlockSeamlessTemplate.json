@@ -1,0 +1,1542 @@
+{
+  "ConnectsToOtherMaterials": false,
+  "DefaultShape": "Single",
+  "Shapes": {
+    "Single": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Single_Above": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Single_Below": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Single_Both": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Horizontal": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Horizontal_Above": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Horizontal_Below": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Horizontal_Both": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Vertical": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Vertical_Above": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Vertical_Below": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Vertical_Both": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Corner_NE": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Corner_NE_Above": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Corner_NE_Below": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Corner_NE_Both": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Corner_NW": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Corner_NW_Above": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Corner_NW_Below": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Corner_NW_Both": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Corner_SE": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Corner_SE_Above": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Corner_SE_Below": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Corner_SE_Both": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Corner_SW": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Corner_SW_Above": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Corner_SW_Below": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Corner_SW_Both": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "TShape_N": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "TShape_N_Above": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "TShape_N_Below": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "TShape_N_Both": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "TShape_S": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "TShape_S_Above": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "TShape_S_Below": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "TShape_S_Both": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "TShape_E": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "TShape_E_Above": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "TShape_E_Below": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "TShape_E_Both": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "TShape_W": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "TShape_W_Above": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "TShape_W_Below": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "TShape_W_Both": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "EndCap_E": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "EndCap_E_Above": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "EndCap_E_Below": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "EndCap_E_Both": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "EndCap_W": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "EndCap_W_Above": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "EndCap_W_Below": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "EndCap_W_Both": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "EndCap_N": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "EndCap_N_Above": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "EndCap_N_Below": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "EndCap_N_Both": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Exclude", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "EndCap_S": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "EndCap_S_Above": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "EndCap_S_Below": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "EndCap_S_Both": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Exclude", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Cross": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Cross_Above": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Cross_Below": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Exclude", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    },
+    "Cross_Both": {
+      "FaceTags": {
+        "North": ["GlassBlockSeamlessConnection"],
+        "South": ["GlassBlockSeamlessConnection"],
+        "East": ["GlassBlockSeamlessConnection"],
+        "West": ["GlassBlockSeamlessConnection"],
+        "Up": ["GlassBlockSeamlessConnection"],
+        "Down": ["GlassBlockSeamlessConnection"]
+      },
+      "PatternsToMatchAnyOf": [
+        {
+          "Type": "Custom",
+          "TransformRulesToOrientation": true,
+          "RulesToMatch": [
+            {"Position": {"X": 1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"West": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": -1, "Y": 0, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"East": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": 1}, "IncludeOrExclude": "Include", "FaceTags": {"North": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 0, "Z": -1}, "IncludeOrExclude": "Include", "FaceTags": {"South": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": 1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Down": ["GlassBlockSeamlessConnection"]}},
+            {"Position": {"X": 0, "Y": -1, "Z": 0}, "IncludeOrExclude": "Include", "FaceTags": {"Up": ["GlassBlockSeamlessConnection"]}}
+          ]
+        }
+      ]
+    }
+  }
+}

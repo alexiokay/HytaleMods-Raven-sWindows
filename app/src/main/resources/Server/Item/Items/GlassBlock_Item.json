@@ -1,0 +1,52 @@
+{
+  "TranslationProperties": {
+    "Name": "Glass Block"
+  },
+  "ItemLevel": 15,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/glass_block.png",
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Glass",
+  "BlockType": {
+    "CustomModel": "Items/GlassBlock/block.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/GlassBlock/glass_block_texture.png",
+        "Weight": 1
+      }
+    ],
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Group": "Glass",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "BlockParticleSetId": "Glass",
+    "ParticleColor": "#d4ece7",
+    "BlockSoundSetId": "Glass",
+    "Opacity": "Transparent"
+  },
+  "Recipe": {
+    "TimeSeconds": 1.0,
+    "Input": [
+      {"ItemId": "Soil_Sand", "Quantity": 2}
+    ],
+    "BenchRequirement": [{
+      "Id": "Builders",
+      "Type": "StructuralCrafting",
+      "Categories": ["Window"]
+    }]
+  },
+  "ItemSoundSetId": "ISS_Items_Potion",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [22.5, 45, 22.5],
+    "Translation": [0, -8]
+  }
+}
