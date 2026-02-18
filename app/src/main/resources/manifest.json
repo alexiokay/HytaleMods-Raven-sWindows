@@ -1,7 +1,7 @@
 {
   "Group": "com.alexispace",
   "Name": "AlexisGlass",
-  "Version": "1.0.4",
+  "Version": "1.0.5",
   "Description": "AlexisGlass - Connected glass panes and windows with decorative borders that auto-connect like fences.",
   "Authors": [
     {
@@ -9,7 +9,7 @@
     }
   ],
   "Main": "com.alexispace.alexisglass.AlexisGlassPlugin",
-  "ServerVersion": "*",
+  "ServerVersion": "2026.02.18-f3b8fff95",
   "Dependencies": {},
   "OptionalDependencies": {},
   "DisabledByDefault": false,
