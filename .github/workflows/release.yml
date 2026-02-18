@@ -1,0 +1,70 @@
+name: Create Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Release version (e.g. 1.0.5)'
+        required: true
+      prerelease:
+        description: 'Pre-release?'
+        type: boolean
+        default: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Upload release JAR
+        id: find_jar
+        run: |
+          # Look for the release JAR built locally and committed/uploaded
+          # You should build locally with: ./gradlew :app:releaseJar
+          # Then upload the JAR from app/build/libs/AlexisGlass-release.jar
+          echo "Expected JAR: AlexisGlass-${{ github.event.inputs.version }}.jar"
+
+      - name: Generate changelog
+        id: changelog
+        run: |
+          # Get commits since last tag
+          LAST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
+          if [ -n "$LAST_TAG" ]; then
+            CHANGES=$(git log ${LAST_TAG}..HEAD --pretty=format:"- %s" --no-merges)
+          else
+            CHANGES=$(git log --pretty=format:"- %s" --no-merges -20)
+          fi
+          echo "changes<<EOF" >> $GITHUB_OUTPUT
+          echo "$CHANGES" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ github.event.inputs.version }}
+          name: AlexisGlass v${{ github.event.inputs.version }}
+          body: |
+            ## AlexisGlass v${{ github.event.inputs.version }}
+
+            ### Installation
+            1. Download `AlexisGlass.jar` below
+            2. Place in `Hytale/UserData/Mods/`
+            3. Restart Hytale
+
+            ### Changes
+            ${{ steps.changelog.outputs.changes }}
+
+            ### Items Included
+            - Glass Block (basic)
+            - Glass Block Seamless (64 connection states)
+            - Glass Panel (fence-style, 12 states)
+            - Glass Panel Seamless (fence-style, 64 states with vertical)
+          prerelease: ${{ github.event.inputs.prerelease }}
+          files: |
+            app/build/libs/AlexisGlass-release.jar
+          fail_on_unmatched_files: false
